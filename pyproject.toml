@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyelectron"
+version = "0.1.0"
+description = ""
+authors = ["Tatsu015 <tatsumi.soichiro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.85.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
